@@ -105,7 +105,8 @@ if (isset($_POST['submit'])) {      // Cek Saat user teken tombol submit
     </footer>
 
     <!-- Scripts -->
-    <script src="assets-modern/js/main.js"></script>
+    <script type="text/javascript" src="./assets-modern/js/main.js"></script>
+    <script type="text/javascript" src="./assets/js/jquery.js"></script>
 
 </body>
 

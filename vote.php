@@ -77,7 +77,7 @@ if(!isset($_SESSION['siswa'])) {
                            <img src="./assets/img/kandidat/<?php echo $foto; ?>" class="img">
                            <p class="nama"><?php echo $nama; ?></p>
                            <div class="caption">
-                              <a href="./detail.php?id=<?php echo $id; ?>" class="btn btn-warning btn-block">Lihat Visi Misi</a>
+                              <a href="./profil.php?id=<?php echo $id; ?>" class="btn btn-warning btn-block">Lihat Visi Misi</a>
                               <a href="./submit.php?id=<?php echo $id; ?>&s=<?php echo $suara; ?>" class="btn btn-success btn-block">Beri Suara</a>
                            </div>
                           </div>
@@ -102,18 +102,5 @@ if(!isset($_SESSION['siswa'])) {
       </div>
 
       <script type="text/javascript" src="./assets/js/jquery.js"></script>
-      <script type="text/javascript" src="./assets/js/wow.js"></script>
-      <script type="text/javascript">
-         wow = new WOW(
-            {
-               animateClass: 'animated',
-               offset:100,
-               callback:function(box) {
-                  console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
-               }
-            }
-         );
-         wow.init();
-      </script>
    </body>
 </html>
