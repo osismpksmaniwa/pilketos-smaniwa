@@ -21,7 +21,7 @@ KangJaz.com | Base Project! ROCKS YOU!!
 - [x] Database System
 - [x] Server Side
 - [] Documentation
-    - [x] [Instalation](instalasi.md)
+    - [x] [Instalation](Instalasi.md)
     - [] Operator Dashboard
     - [] SysAdmin
     - [] End User
