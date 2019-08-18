@@ -45,7 +45,7 @@
 							<button onclick="window.history.go(-1)" class="buttonn btn-warning">Kembali</button>
 						</ul>
 						<div>
-							<a onclick="let confirm = confirm(`Apakah kamu yakin akan memilih <?php $nama ?>`);" href="./submit.php?id=<?php echo $id; ?>&s=<?php echo $suara; ?>" class="button submit">Beri Suara</a>
+							<a href="./submit.php?id=<?php echo $id; ?>&s=<?php echo $suara; ?>" class="button submit">Beri Suara</a>
                         </div>
 					</section>
 
