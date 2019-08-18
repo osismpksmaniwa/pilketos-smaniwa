@@ -34,7 +34,7 @@
 				<!-- Main -->
 					<section id="main">
 						<header>
-							<span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
+							<span class="avatar"><img src="./assets/img/kandidat/<?php echo $foto; ?>" alt="" /></span>
 							<h1><?php echo $nama; ?></h1>
 							<p>Visi :<br><i><?php echo $visi; ?></i></p>
 						</header>
@@ -42,11 +42,10 @@
 							<p>Misi :<?php echo $misi; ?></p>
 					</div>
 						<ul class="actions special">
-							<li><a href="#" class="button">MENU UTAMA</a></li>
+							<button onclick="window.history.go(-1)" class="buttonn btn-warning">Kembali</button>
 						</ul>
 						<div>
-                           <button onclick="window.history.go(-1)" class="buttonn btn-warning">Kembali</button>
-                           <a href="./submit.php?id=<?php echo $id; ?>&s=<?php echo $suara; ?>" class="button btn-success">Beri Suara</a>
+							<a onclick="let confirm = confirm(`Apakah kamu yakin akan memilih <?php $nama ?>`);" href="./submit.php?id=<?php echo $id; ?>&s=<?php echo $suara; ?>" class="button submit">Beri Suara</a>
                         </div>
 					</section>
 

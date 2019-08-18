@@ -10,7 +10,7 @@ if(!isset($_SESSION['siswa'])) {
 <html>
    <head>
       <meta charset="utf-8">
-      <title>E - Voting</title>
+      <title>Pemilihan Ketua OSIS</title>
       <link rel="stylesheet" href="./assets/css/bootstrap.min.css"/>
       <link rel="stylesheet" href="./assets/css/animate.css"/>
       <style media="screen">
@@ -58,7 +58,7 @@ if(!isset($_SESSION['siswa'])) {
          if ($sql->num_rows() > 0) {
             $numb = $sql->num_rows();
             echo '<div class="text-center" style="padding-top:20px;">
-                     <h2>Daftar Calon Ketua Osis Periode '.$periode.'</h2>
+                     <h2>Daftar calon ketua OSIS Periode '.$periode.'</h2>
                   </div>
                   <hr />';
 
@@ -78,7 +78,6 @@ if(!isset($_SESSION['siswa'])) {
                            <p class="nama"><?php echo $nama; ?></p>
                            <div class="caption">
                               <a href="./profil.php?id=<?php echo $id; ?>" class="btn btn-warning btn-block">Lihat Visi Misi</a>
-                              <a href="./submit.php?id=<?php echo $id; ?>&s=<?php echo $suara; ?>" class="btn btn-success btn-block">Beri Suara</a>
                            </div>
                           </div>
                         </div>

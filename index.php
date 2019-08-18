@@ -73,7 +73,7 @@ if (isset($_POST['submit'])) {      // Cek Saat user teken tombol submit
             if (isset($_GET['page'])) {
                 switch ($_GET['page']) {
                     case 'thanks':
-                    echo '<h1>MAKASIH LOH</h1>';
+                    echo '<a href="./index.php" ><h1>MAKASIH LOH</h1></a>';
                     break;
 
                     default:
@@ -94,10 +94,10 @@ if (isset($_POST['submit'])) {      // Cek Saat user teken tombol submit
     <!-- Footer -->
     <footer id="footer">
         <ul class="icons">
-            <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-            <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-            <li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-            <li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+            <li><a href="https://twitter.com/omsmaniwa" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+            <li><a href="https://instagram.com/osismpksmaniwa" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+            <li><a href="https://github.com/osismpksmaniwa" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+            <li><a href="emailto:admin@osismpksmaniwa.web.id" class="icon fa-envelope"><span class="label">Email</span></a></li>
         </ul>
         <ul class="copyright">
             <li><?php echo date ('Y');?>&copy; #SakuraTeam</li>
