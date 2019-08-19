@@ -6,4 +6,4 @@ branches:
   only:
     - master
 after_success:
-  - ./deploy.sh 
+  - sudo ./deploy.sh 
