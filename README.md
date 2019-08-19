@@ -21,11 +21,12 @@ KangJaz.com | Base Project! ROCKS YOU!!
 - [x] Database System
 - [x] Server Side
 - [] Documentation
-    - [x] [Instalation](Instalasi.md)
-    - [] Operator Dashboard
-    - [] SysAdmin
-    - [] End User
-    - [] Troubleshooting
+    - [x] [Installation](Instalasi.md)
+    - [ ] Operator Dashboard
+    - [ ] SysAdmin
+    - [ ] Operator End User
+    - [x] [End User](client-use.md)
+    - [ ] Troubleshooting
 
 > Dibuat karena sang desainer sedang gabut.
 
