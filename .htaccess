@@ -1,0 +1,6 @@
+# protect .htaccess and .htpasswd
+<Files ~ "^.*\.([Hh][Tt])">
+	Order allow,deny
+	Deny from all
+	Satisfy all
+</Files>
