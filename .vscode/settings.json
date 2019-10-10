@@ -3,12 +3,12 @@
         {
             "askForPassword": false,
             "connectionTimeout": 30,
-            "database": "pilketos-smaniwa",
+            "database": "oms-pilketos",
             "dialect": "MySQL",
-            "name": "Pilketos-Smaniwa",
+            "name": "oms-pilketos",
             "port": 3306,
             "server": "127.0.0.1",
-            "username": "root"
+            "username": "oms-api"
         }
     ]
 }

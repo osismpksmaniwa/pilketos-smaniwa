@@ -1,12 +1,12 @@
 # osismpksmaniwa-pilketos
 
-Aplikasi yang dibuat khusus untuk kegiatan [pilketos](https://go.osismpksmaniwa.web.id/pilketos).
+Aplikasi yang dibuat khusus untuk kegiatan pemilihan ketua OSIS SMA Negeri 1 Wonoayu
 
 ## Requirements
 
-- Mini Dedicated Server
-- Client Desktop
-- Local Network Infrastructure
+- A Server
+- Client Devices
+- Local Network
 
 ## Getting Started
 
@@ -35,3 +35,4 @@ If you have something you want to discuss in detail, or have hit an issue which 
 This works is based on e-vote project from Copyright &copy; 2014-2016 <a href="http://almsaeedstudio.com">Almsaeed Studio</a>.</strong> All rights reserved. Powered by : <a href="https://kangjaz.com">Kangjaz.com</a>
 
 > Modified by us for our private project. No Profit created from this project
+> We have address list of bugs internally, contact the administrator for the bugs mailing
